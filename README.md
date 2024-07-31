@@ -109,6 +109,7 @@ frontend/
 
    在專案根目錄下運行以下命令來安裝所需的 Maven 依賴：
    ```
+   cd seatManagementSystem/backend
    mvn clean install
    ```
 5. 運行 Spring Boot 應用程式
