@@ -89,8 +89,8 @@ frontend/
 
    進入 `DB` 資料夾，執行 `schema.sql` 和 `data.sql` 來創建和初始化資料表：
    ```
-   mysql -u root -p seat_management < DB/schema.sql
-   mysql -u root -p seat_management < DB/data.sql
+   mysql -u root -p seatManagementSystem < DB/schema.sql
+   mysql -u root -p seatManagementSystem < DB/data.sql
    ```
 3. 配置資料庫連接
 
