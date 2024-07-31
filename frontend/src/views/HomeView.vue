@@ -130,7 +130,7 @@ export default {
     // 選擇座位
     selectSeat(seat) {
       if (seat.occupied) {
-        const confirmation = confirm("你選擇了有人的，是否將其清除成空位？");
+        const confirmation = confirm("你選擇了有人的位置，是否將其清除成空位？");
         if (confirmation) {
           axios.put('/employee/updateEmployeeSeat', null, {
             params: {

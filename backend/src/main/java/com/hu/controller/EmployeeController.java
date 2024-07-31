@@ -35,8 +35,6 @@ public class EmployeeController {
     //更新特定員工位置
     @PutMapping("/updateEmployeeSeat")
     public Result updateEmployeeSeat(String empId, Integer floorSeatSeq) {
-        System.out.println(empId);
-        System.out.println(floorSeatSeq);
         //變更位置
         boolean success = employeeService.updateEmployeeSeat(empId, floorSeatSeq);
         if(success){
