@@ -120,12 +120,18 @@ frontend/
 
 ## 實際畫面參考
 
-初始畫面
-![畫面一](https://github.com/user-attachments/assets/b904440d-6525-4bcc-957a-f50bcb42724d)
+## 初始畫面
+<center>
+    <img src="https://github.com/user-attachments/assets/b904440d-6525-4bcc-957a-f50bcb42724d" alt="畫面一">
+</center>
 
-勾選->顯示尚未分配座位置員工checkbox後
-![畫面二](https://github.com/user-attachments/assets/80d41bde-05f5-439d-b238-4a930e4a7f75)
+## 勾選顯示尚未分配座位置員工checkbox後
+<center>
+    <img src="https://github.com/user-attachments/assets/80d41bde-05f5-439d-b238-4a930e4a7f75" alt="畫面二">
+</center>
 
-選擇座位以及員工
-![畫面三](https://github.com/user-attachments/assets/ad745952-c3e9-4666-9eda-de2c55fcc1b0)
+## 選擇座位以及員工
+<center>
+    <img src="https://github.com/user-attachments/assets/ad745952-c3e9-4666-9eda-de2c55fcc1b0" alt="畫面三">
+</center>
 
