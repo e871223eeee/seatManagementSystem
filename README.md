@@ -79,7 +79,7 @@ frontend/
 
    首先，使用 Git 將專案克隆到本地(如果你還沒克隆的話)：
    ```
-   git clone https://github.com/yourusername/seatManagementSystem.git
+   git clone -b master https://github.com/e871223eeee/seatManagementSystem.git
    cd seatManagementSystem
    ```
 1. 配置資料庫
