@@ -88,7 +88,7 @@ frontend/
 
 2. 創建資料表
 
-   進入 `DB` 資料夾，執行 `schema.sql` 和 `data.sql` 來創建和初始化資料表：
+   進入 `DB` 資料夾，執行 `DDL.sql` 和 `DML.sql` 來創建和初始化資料表：
    
 3. 配置資料庫連接
 
