@@ -17,7 +17,7 @@
 
    首先，使用 Git 將專案克隆到本地：
    ```
-   git clone https://github.com/e871223eeee/seatManagementSystem.git
+   git clone -b master https://github.com/e871223eeee/seatManagementSystem.git
    cd seatManagementSystem/frontend
    ```
 2. 安裝依賴
