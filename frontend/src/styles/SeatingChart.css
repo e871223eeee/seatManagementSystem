@@ -1,0 +1,96 @@
+.floor {
+  margin-bottom: 5px;
+}
+.seat {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+button.seatbutton {
+  width: 150px;
+  height: 60px;
+  border: 1px solid #ccc;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: pre-line; /* 確保换行為新行 */
+}
+button.occupied {
+  background-color: red;
+  color: white;
+}
+button.selected {
+  background-color: green;
+  color: white;
+}
+.seating-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+button.submitbutton {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  /* margin: 5px;
+  padding: 5px; */
+  border: 1px solid #ccc;
+  color: black;
+  font-size: 16px;
+}
+select {
+  background: #d6d6be;
+  color: #000000;
+  margin: 15px;
+  width: 300px;
+  height: 3em;
+  padding: 8px;
+  position: relative;
+  border-radius: 5px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-position: right 0.5em top 50%, 0 0;
+  background-size: contain, cover;
+  background-repeat: no-repeat, repeat;
+  font-size: 16px;
+  text-align: center; /* 使文本居中 */
+}
+.status-legend {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  font-size: 16px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.legend-color {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.legend-color.empty {
+  background-color: white;
+}
+
+.legend-color.selected {
+  background-color: green;
+}
+
+.legend-color.occupied {
+  background-color: red;
+}
+
