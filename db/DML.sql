@@ -1,3 +1,6 @@
+-- 使用
+use seatManagementSystem;
+
 -- 插入假資料到 SeatingChart 表
 INSERT INTO SeatingChart (FLOOR_NO, SEAT_NO) VALUES
                                                  ('1F', 1),
